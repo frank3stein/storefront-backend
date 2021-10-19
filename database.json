@@ -2,15 +2,15 @@
   "dev": {
     "driver": "pg",
     "host": "127.0.0.1",
-    "database": "storefront",
-    "user": "storefront-admin",
+    "database": "storefront_backend",
+    "user": "luna",
     "password": "password123"
   },
   "test": {
     "driver": "pg",
     "host": "127.0.0.1",
-    "database": "storefront-test",
-    "user": "storefront-admin",
+    "database": "storefront_backend_test",
+    "user": "luna",
     "password": "password123"
   }
 }
