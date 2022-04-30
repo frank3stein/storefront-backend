@@ -8,8 +8,8 @@ services:
     env_file:
       - .env
     volumes:
-      # ./postgres to save the volume locally
-      - "./postgres:/var/lib/postgresql/data"
+      # - "./postgres" #to save the volume locally
+      - "~/development/udacity/storefront-backend/postgres:/var/lib/postgresql/data"
 
 volumes:
   postgres:

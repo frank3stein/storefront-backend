@@ -12,5 +12,5 @@ app.get("/", function (req, res) {
     res.send("Hello World!");
 });
 app.listen(3000, function () {
-    console.log("starting app on: " + address);
+    console.log("starting app on: ".concat(address));
 });
